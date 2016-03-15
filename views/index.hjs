@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head class="red-text">
+  	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/fonts/Raleway/stylesheet.css' />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
+    <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="../javascripts/functions.js"></script>
+
+  </head>
+
+
+ 
+
+  <body class="body-image">
+    <!--Nav-Bar-->
+    <div id="nav-bar" class="nav-container">
+      <ul id="navi">
+        <li><a href="http://www.sushiyasakany.com">Home
+        </a></li>
+        <li><a href="url">Menu</a></li>
+        <li><a href="#"><img src="../../images/sushi_yasaka_logo.png" alt="Sushi Yasaka" height="27.2" width="175"></a></li>
+        <li><a href="http://www.yelp.com/biz/sushi-yasaka-new-york">About Us</a></li>
+        <li><a href="http://www.opentable.com/sushi-yasaka">Reserve</a></li>
+      </ul>
+    </div>
+    <!--Nav-Bar-->
+
+
+
+    <!--Menu Header-->
+    <div id="menu-header"class="text-center">
+      <h1 class="white-text title-font">Menu</h1>
+    </div>
+    <!--Menu-Header-->
+
+    
+
+    <div class="container"><!--Menu Container-->
+      <div class="jumbotron menu-background"><!--Menu Jumbotron-->
+        <!--Pacific Image-->
+        <div class="text-center">
+          <img src="../../images/pacific-dark.png" alt="logo" height="204" width="215">
+        </div>
+        <!--Pacific Image-->
+
+        <!--Hot Appetizers-->
+        <div class="text-center">
+          <h2 class="header-font">HOT APPETIZERS</h2>
+        </div>
+        <div class="row">
+          <div class="col-xs-4">
+            <ul id="menu-list">
+              <li>Edamame</li>
+              <li>Sauteed Organic Mushrooms</li>
+              <li>Sakura Shumai</li>
+              <li>Yokohama Gyoza</li>
+              <li>Vegetable Gyoza</li>
+              <li>Kaki Fry</li>
+              <li>Agedashi Tofu</li>
+            </ul>
+          </div>
+          <div class="col-xs-4">
+            <ul id="menu-list">
+              <li>Tatsuta Age</li>
+              <li>Beef Negimaki</li>
+              <li>Gindara Kasuzuke</li>
+              <li>Ebi Shinjo</li>
+              <li>Hijik</li>
+              <li>Kinpira</li>
+              <li>Ohitashi</li>
+            </ul>
+          </div>
+          <div class="col-xs-4">
+            <ul id="menu-list">
+              <li>Goma Ae</li>
+              <li>Tuna Avocado</li>
+              <li>Toro Tartare</li>
+              <li>Ankimo</li>
+              <li>Usuzukuri</li>
+              <li>Sashimi</li>
+            </ul>
+          </div>
+        </div>
+        <!--Hot Appetizer-->
+
+        <!--Salads-->
+        <div class="text-center">
+          <h2 class="header-font">SALADS</h2>
+        </div>
+        <div class="row">
+          <div class="col-xs-4">
+            <ul id="menu-list">
+              <li>Small Salad</li>
+              <li>Yasaka Salad</li>
+            </ul>
+          </div>
+          <div class="col-xs-4">
+            <ul id="menu-list">
+              <li>Seaweed Salad</li>
+              <li>Garden Salad</li>
+            </ul>
+          </div>
+          <div class="col-xs-4">
+            <ul id="menu-list">
+              <li>Yaki-Shabu Salad</li>
+              <li>Grilled Shrimp & Avocado</li>
+            </ul>
+          </div>
+        </div>
+        <!--Salads-->
+
+        <!--Soups-->
+        <div class="text-center">
+          <h2 class="header-font">SOUPS</h2>
+        </div>
+        <div class="row">
+          <div class="col-xs-4">
+            <ul id="menu-list">
+              <li>Miso</li>
+            </ul>
+          </div>
+          <div class="col-xs-4">
+            <ul id="menu-list">
+              <li>Clear</li>
+            </ul>
+          </div>
+          <div class="col-xs-4">
+            <ul id="menu-list">
+              <li>Akadashi Miso</li>
+            </ul>
+          </div>
+        </div>
+        <!--Soups-->
+
+        <!--Noodles-->
+        <div class="text-center">
+          <h2 class="header-font">NOODLES</h2>
+        </div>
+        <div class="row">
+          <div class="col-xs-4">
+            <ul id="menu-list">   
+              <li>Kanto Soba</li>
+              <li>Kansai Udon</li>
+            </ul>
+          </div>
+          <div class="col-xs-4">
+            <ul id="menu-list"> 
+              <li>Ebi Tempura Soba</li>
+              <li>Vegie Tempura Soba</li>
+            </ul>
+          </div>
+          <div class="col-xs-4">
+            <ul id="menu-list">
+              <li>Ebi Tempura Udon</li>
+              <li>Vegi Tempura Udon</li>
+            </ul>
+          </div>
+        </div>
+        <!--Noodles-->
+
+        <!--Tempura-->
+        <div class="text-center">
+          <h2 class="header-font">TEMPURA</h2>
+        </div>
+        <div class="row">
+          <div class="col-xs-4">
+            <ul id="menu-list">   
+              <li>Chef's Omakase Vegetable Tempura</li>
+              <li>Appetizer Tempura</li>
+            </ul>
+          </div>
+          <div class="col-xs-4">
+            <ul id="menu-list"> 
+              <li>Appetizer Vegetable Tempura</li>
+              <li>Dinner Tempura</li>
+            </ul>
+          </div>
+        </div>
+        <!--Tempura-->
+
+        <!--Tempura A La Carte-->
+        <div class="text-center">
+          <h2 class="header-font">TEMPURA A LA CARTE</h2>
+        </div>
+        <div class="row">
+          <div class="col-xs-4">
+            <ul id="menu-list">                 
+              <li>Lobster Tail</li>
+              <li>Shrimp</li>
+              <li>Asparagus</li>
+              <li>Japanese Egg Plant</li>
+              <li>Japanese Sweet Potato</li>
+            </ul>
+          </div>
+          <div class="col-xs-4">
+            <ul id="menu-list">               
+              <li>Kobocha Squash</li>
+              <li>Maittake Mushroom</li>
+              <li>Lotus Root</li>
+              <li>Baby Onoin</li>
+              <li>Baby Carrot</li>
+            </ul>
+          </div>
+          <div class="col-xs-4">
+            <ul id="menu-list">              
+              <li>Shishito Pepper</li>
+              <li>Baby Zucchini</li>
+              <li>Broccoli</li>
+            </ul>
+          </div>
+        </div>
+        <!--Tempura A La Carte-->
+
+        <!--Maki Rolls Hand Rolls-->
+        <div class="text-center">
+          <h2 class="header-font">MAKI ROLLS HAND ROLLS</h2>
+        </div>
+        <div class="row">
+          <div class="col-xs-4">
+            <ul id="menu-list">                 
+              <li>Negi Toro</li>
+              <li>Negi Yellow Tail</li>
+              <li>Tuna</li>
+              <li>Tuna Avocado</li>
+              <li>Tuna Cucumber</li>
+              <li>Spicy Salmon</li>
+              <li>Spicy Yellow Tail</li>
+              <li>Spicy Scallop</li>
+              <li>California</li>
+            </ul>
+          </div>
+          <div class="col-xs-4">
+            <ul id="menu-list">               
+              <li>Fresh Salmon Salmon Avocado</li>
+              <li>Salmon Cucumber</li>
+              <li>Salmon Skin</li>
+              <li>Salmon Roe</li>
+              <li>Fluke Ume Shiso</li>
+              <li>Eel Cucumber</li>
+              <li>Eel Avocado</li>
+              <li>Ume Shiso Cucumber Shitake Mushroom</li>
+              <li>Oshinko</li>
+            </ul>
+          </div>
+          <div class="col-xs-4">
+            <ul id="menu-list">              
+              <li>Avocado</li>
+              <li>Asparagus</li>
+              <li>Cooked Kampyo</li>
+              <li>Cucumber</li>
+              <li>Sweet Potato Tempura</li>
+              <li>Pumpkin Tempura</li>
+              <li>Shrimp Tempura</li>
+              <li>Spicy Ebi Tempura</li>
+            </ul>
+          </div>
+        </div>
+        <!--Maki Rolls Hand Rolls-->
+
+        <!--Sushi Entrees-->
+        <div class="text-center">
+          <h2 class="header-font">SUSHI ENTREES</h2>
+        </div>
+        <div class="row">
+          <div class="col-xs-4">
+            <ul id="menu-list">                 
+              <li>Yasaka Chef Recommemd</li>
+              <li>Sushi Deluxe</li>
+              <li>Sashimi Deluxe</li>
+            </ul>
+          </div>
+          <div class="col-xs-4">
+            <ul id="menu-list">               
+              <li>Miyabi</li>
+              <li>Umi No Sachi</li>
+              <li>Yaki Salmon Donburi</li>
+            </ul>
+          </div>
+          <div class="col-xs-4">
+            <ul id="menu-list">
+              <li>Spicy Maki Combination</li>
+            </ul>
+          </div>
+        </div>
+        <!--Sushi Entrees-->
+
+        <!--Sushi Sashimi A La Carte-->
+        <div class="text-center">
+          <h2 class="header-font">SUSHI SASHIMI A LA CARTE</h2>
+        </div>
+        <div class="row">
+          <div class="col-xs-4">
+            <ul id="menu-list">   
+              <li>Fatty Tuna</li>
+              <li>Tuna</li>
+              <li>Yellow Tail</li>
+              <li>Fresh Salmon</li>
+              <li>King Salmon</li>
+              <li>Fluke</li>
+              <li>King Crab</li>
+              <li>Octopus</li>
+            </ul>
+          </div>
+          <div class="col-xs-4">
+            <ul id="menu-list">               
+              <li>Squid</li>
+              <li>Fried Oyster</li>
+              <li>Smelt Roe</li>
+              <li>Sea Urchin (Maine)</li>
+              <li>Sea Urchin Cali</li>
+              <li>Sea Bass</li>
+              <li>Japanese Snapper</li>
+              <li>Shime Mackerel</li>
+            </ul>
+          </div>
+          <div class="col-xs-4">
+            <ul id="menu-list">             
+              <li>Spanish Mackerel</li>
+              <li>Eel</li>
+              <li>Sea Eel</li>
+              <li>Crab Stick</li>
+              <li>Boiled Shrimp</li>
+              <li>Botan Shrimp Salmon Roe</li>
+              <li>Live Scallop</li>
+              <li>Baby Abalone</li>
+            </ul>
+          </div>
+        </div>
+        <!--Sushi Sashimi A La Carte-->
+
+        <!--Yasaka's Sig. Maki-->
+        <div class="text-center">
+          <h2 class="header-font">YASAKA'S SIGNATURE MAKI</h2>
+        </div>
+        <div class="row">
+          <div class="col-xs-4">
+            <ul id="menu-list">                
+              <li>Fried Japanese Oyster</li>
+              <li>Mix Vegetable</li>
+              <li>Futomaki</li>
+            </ul>
+          </div>
+          <div class="col-xs-4">
+            <ul id="menu-list">               
+              <li>Lobster Tempura Roll</li>
+              <li>Geisha Roll</li>
+              <li>Soft Shell Crab</li>
+            </ul>
+          </div>
+          <div class="col-xs-4">
+            <ul id="menu-list">
+              <li>Boston Real Crab Roll</li>
+              <li>Chopped Crunch Eel Avocado</li>
+            </ul>
+          </div>
+        </div>
+        <!--Yasaka's Sig. Maki-->
+
+        <!--Teriyaki and Steak-->
+        <div class="text-center">
+          <h2 class="header-font">TERIYAKI & STEAK</h2>
+        </div>
+        <div class="row">
+          <div class="col-xs-4">
+            <ul id="menu-list">   
+              <li>Organic Chicken Teriyaki</li>
+              <li>King Salmon Teriyaki</li>
+            </ul>
+          </div>
+          <div class="col-xs-4">
+            <ul id="menu-list"> 
+              <li>Tofu Steak</li>
+              <li>Angus Prime Rib Eye Steak</li>
+            </ul>
+          </div>
+        </div>
+        <!--Teriyaki and Steak-->
+      </div> <!--Menu Jumbotron-->
+    </div> <!--Menu Container-->
+    
+  </body>
+    
+  <footer>
+    <!--Store Motto-->
+    <div id="motto-header" class="container text-center white-text">
+      <h3>JAPANESE DINING</h3>
+      <p>FRESH INGREDIENTS&nbsp;× CRAFTED WITH LOVE</p>
+    </div>
+    <!--Store Motto-->
+
+    <div class="container">
+      <div class="col-sm-8 col-sm-offset-2 text-center">
+
+        <ul class="list-inline center-block">
+          <li><a href="https://www.facebook.com/sushiyasaka"><img src="../../images/Facebook.png" alt="FB" height="35" width="35"></a></li>
+          <li><a href="https://twitter.com/SushiYasaka"><img src="../../images/Twitter.png" alt="TW" height="35" width="35"></a></li>
+          <li><a href="https://www.instagram.com/sushiyasaka/"><img src="../../images/Instagram.png" alt="IG" height="35" width="35"></a></li>
+          <li><a href="https://www.yelp.com/biz/sushi-yasaka-new-york"><img src="../../images/Yelp.png" alt="G+" height="35" width="35"></a></li>
+        </ul>
+            
+      </div><!--/col-->
+    </div><!--/container-->
+
+    <!--Site Info-->
+    <div class="container">
+      <div id="footer-info" class="row text-center">
+        <span>Sushi Yasaka, 251 W 72nd St, New York, NY, 10023, United States</span>
+        <span>(212) 496-8460</span>
+        <span><a href="malito:sushiyasaksnyc@gmail.com">sushiyasakanyc@gmail.com</a></span>
+      </div>
+    </div>
+    <!--Site info-->
+  </footer>
+
+</html>
