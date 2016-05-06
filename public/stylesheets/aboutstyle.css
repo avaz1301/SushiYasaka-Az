@@ -1,0 +1,124 @@
+
+
+#carousel-parent{
+    width: auto;
+}
+#carousel-parent:after{
+    content: "";
+    background-color: rgba(0, 0, 0, .8);
+    z-index: 10;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    margin: auto;
+}
+
+#facebook-parent{
+}
+
+/*--------------------MAP-------------------*/
+
+#about-title {
+    font-family: "Raleway";
+    font-weight: 800;
+    font-style: normal;
+    color: #000000;
+    /*background-color: rgba(255,225,191,0.7);*/
+    background-color: rgba(0, 0, 0, .8);
+
+}
+
+#map-parent{
+    height:100%;
+    margin-top: 10px;
+    float: middle;
+    height: auto;
+    width: auto;
+}
+
+#map {
+    width: 100%;
+    height: 300px;
+    background-color: #CCC;
+    border-radius: 10px;
+}
+#store-info{
+    /*background-color: rgba(255,225,191,0.7);*/
+    /*background-color: rgba(0,0,0,0.7);*/
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: 100%;
+}
+#store-info h3{
+    font-family: "Raleway";
+    color: #FFFFFF;
+    /*color: #000000;*/
+    font-size: 18px;
+
+}
+#store-info p{
+
+    font-family: "Raleway ExtraLight";
+    color: #FFFFFF;
+    /*color: #000000;*/
+    font-size: 16px;
+
+}
+#info-super-parent{
+    background-color: rgba(0, 0, 0, .7);
+    border-radius: 10px;
+
+}
+
+#jumbo-for-info{
+    content: "";
+    background-color: #341E1C;
+    /*background-image: url("../images/shop1.jpg");*/
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    /*margin-top: 10px;*/
+}
+
+#info-header{
+    float: left;
+    border-radius: 10px;
+    width: 100%;
+}
+#info-header h2{
+    width:50%;
+    font-family: "Raleway";
+    color: #FFFFFF;
+}
+
+#info-header p{
+    width:50%;
+    color: #FFFFFF;
+    /*color: #000000;*/
+    font-family: "Raleway ExtraLight";
+    font-size: 16px;
+}
+
+.info-plate {
+    /*background-color: rgba(0, 0, 0, .7);*/
+}
+
+.info-pane h2 {
+    font-size: 38px;
+    margin-top: 10%;
+}
+
+#form-parent{
+    height: 100%;
+}
+
+
+#about-title {
+    color: #FFFFFF;
+}
+/*--------------------MAP-------------------*/

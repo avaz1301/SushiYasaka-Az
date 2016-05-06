@@ -2,40 +2,35 @@ body {
   padding: 10px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
+
 .body-image {
 	background-color: #341E1C;
-	height: 900px;
-	width: 0 auto;
-	341E1C
+	height: 1000px;
+	width: auto;
 }
-.head-back{
-	background: #000000 no-repeat fixed;
-}
+
 .wrapper{
 	margin: 0 auto;
 	text-align: center;
 }
-.main-nav-container{
-	height: 0;
-	width: 100%;
-}
 
+/*---------------NAVIGATION BAR-------------*/
+
+/*.nav-fade{*/
+	/*opacity: 1;*/
+/*}*/
+
+.fixed-nav{
+    position: fixed;
+}
 .nav-container{
-	position: fixed;
+    z-index: 10;
 	top: 0;
 	left: 0;
 	right: 0;
 	height: 0;
 	text-align: center;
 }
-/*.nav-pos-fixed{
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	height: 0;
-	text-align: center;
-}*/
 
 #navi {
 	display: inline-block;
@@ -44,9 +39,13 @@ body {
     text-align: center;
     padding-top: 5px;
     padding-left: 0px;
-    background: rgba(0,0,0,.6);
-
+    background: rgba(52,30,28,.8);
 }
+
+#navi:hover{
+    background: rgba(0,0,0,.8);
+}
+
 #navi li {
 	color: #FFFFFF;
 	display: inline;
@@ -64,58 +63,77 @@ body {
 	font-family: "Raleway";
 }
 
-#navi li a:link,a:visited
-{
+#navi li a:link,a:visited {
 	font-weight:bold;
-    color:#808080;
+	color: #FFFFFF;
+    /*color:#808080;*/
     text-align:center;
 }
 
-#navi li a:hover,a:active
-{
-    background-color:#7A991A;
+#navi li a:hover,a:active {
+    background-color: #000000;
     font-size: 15.5px;
 }
+/*---------------NAVIGATION BAR-------------*/
 
+/*-----------------MENU BLOCK---------------*/
 .menu-background{
-	background-image: url("../images/light_wood_texture.jpg");
+	width: 100%;
+	background: #FFFFFF url("../images/menubackground.png") no-repeat;
+	background-position: top;
+    margin-top: 10px;
+}
+
+#wood{
+	margin-top: 50px;
+	box-shadow: -8px 8px 5px 0px rgba(0,0,0,0.4);
+}
+
+.wooden-background{
+	background-image: url("../images/woodtexture.png");
 }
 
 #menu-header{
+    width: auto;
+    text-align: center;
+    height:100px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
-#menu-list{
+.menu-list{
 	list-style: none;
-	padding-left: 0px;
+    text-align: center;
+    padding-left: 0px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	color: #FFFFFF
 }
 
-#menu-list li{
+.menu-list li{
+	list-style: none;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	font-size: 16px;
+	font-size: 1.1em;
 	font-family: "Raleway";
-	font-weight: 600;
-	font-style: normal;
-	color: #FFFFFF
+	/*font-style: normal;*/
+	color: #000000
 }
+/*---------------MENU BLOCK-------------*/
 
 .title-font{
+	color: #000000;
 	font-family: "Raleway";
 	font-weight: 800;
-	font-style: ;
+	font-style: normal;
 }
 
 .header-font{
 	font-size: 20px;
-	font-family: "Raleway ExtraLight";
+	font-family: "Raleway";
 	font-weight: 800;
 	font-style: normal;
-	color: #FFFFFF
+	color: #000000
 }
 
 #footer-info{
@@ -123,24 +141,21 @@ body {
 	padding-bottom: 30px;
 	color: #FFFFFF;
 	font-family: "Raleway ExtraLight";
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: 500;
 	font-style: normal;
 }
 
 #motto-header{
+	margin-top: 20px;
 	font-family: "Raleway ExtraLight";
 	font-weight: 500;
 	font-style: normal;
 }
 
-span{
+#footer-info span{
 	padding-left: 10px;
 	padding-right: 10px;
-}
-
-a {
-  color: #00B7FF;
 }
 
 .grey-text{
@@ -150,20 +165,16 @@ a {
 	color: #FFFFFF;
 }
 
-.blue-text{
-	color: blue;
-	font-style: italic;
-	font-weight: bold;
-}
-prim-font {
-	color: red;
-	font-size: 20px;
-	font-family: Monospace;
-}
 
-bold_text{
-	color: white;
-	font-weight: bold;
-	font-style: italic;
-}
+/*prim-font {*/
+	/*color: red;*/
+	/*font-size: 20px;*/
+	/*//font-family: Monospace;*/
+/*}*/
+
+/*bold_text{*/
+	/*color: white;*/
+	/*font-weight: bold;*/
+	/*font-style: italic;*/
+/*}*/
 
